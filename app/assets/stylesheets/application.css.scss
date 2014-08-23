@@ -1,8 +1,13 @@
 /*
  *= require_self
- *= require font-awesome
  *= require bootstrap
  *= require select2
  *= require select2-bootstrap
+ *= require font-awesome
+ *= require home
  */
 
+body {
+  min-height: 500px;
+  padding-top: 70px;
+}

@@ -7,7 +7,7 @@ gem 'rails_config'
 gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
-gem 'nokogiri'
+
 
 gem 'non-stupid-digest-assets'
 gem 'sass-rails', '~> 4.0.3'
