@@ -2,6 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+.display{
+  margin:0;
+  padding:0;
+  height: 394px;
+  background-color: #282828;
+  background-image:  asset-url("grid.png");
+  border: 6px white solid;
+  scroll:no;
+}
+.body-main {
+  background-color: f2f2f2;
+  min-height: 500px;
+  padding-top: 70px;
+}
+.img-tip{
+  margin-top: 50px;
+}
 .img-share{
    width: 90px;
    height: 90px;

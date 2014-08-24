@@ -44,10 +44,12 @@
                   a[href="#"]
                     | One more separated link
           ul.nav.navbar-nav.navbar-right
-            li
-              a[href="../navbar/"]
-                | Default
+             - if user_signed_in?
+                li
+                  = link_to '退出', destroy_user_session_path, :method => :delete
 
-            li.active
-              a[href="./"]
-                | Fixed top
+             - else
+                li
+                  = link_to '注册', new_user_registration_path
+                li.active
+                  = link_to '登陆', new_user_session_path
