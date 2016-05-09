@@ -2,9 +2,10 @@
  *= require_self
  *= require home
  *= require sigin_in
- *= require bootstrap
  *= require select2
  *= require select2-bootstrap
- *= require font-awesome
  */
-
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
