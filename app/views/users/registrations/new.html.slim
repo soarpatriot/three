@@ -1,0 +1,16 @@
+
+.row 
+  .col-sm-6.col-sm-offset-3
+    h2 注册
+    = simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| 
+      = f.error_notification 
+
+      div class="form-inputs"
+        = f.input :email, required: true, autofocus: true 
+        = f.input :password, required: true 
+        = f.input :password_confirmation, required: true 
+
+      div class="form-actions"
+        = f.button :submit, "确定" 
+
+    = render "users/shared/links" 
